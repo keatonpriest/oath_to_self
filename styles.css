@@ -1,0 +1,43 @@
+body {
+    background-image: url('./images/paperbackgroundv2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #F1ECE5;
+}
+.message {
+    border: 10px solid rgb(34, 32, 21);
+    border-radius: 5% 0px;
+    font-size: 1.5em;
+    padding: 2%;
+    margin: 30px 40%;
+    font-family: liberation_monoregular;
+}
+.header {
+    margin: auto;
+    margin-top: 80px;
+    width: 295px;
+    font-family: "made_kenfolg_v2regular";
+}
+h1 {
+    text-align: center;
+} 
+h2 {
+    text-align: right;
+}
+@font-face {
+    font-family: 'liberation_monoregular';
+    src: url('./fonts/liberationmono-regular-webfont.woff2') format('woff2'),
+         url('./fonts/liberationmono-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'made_kenfolg_v2regular';
+    src: url('./fonts/made_kenfolg_v2_personal_use-webfont.woff2') format('woff2'),
+         url('./fonts/made_kenfolg_v2_personal_use-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
